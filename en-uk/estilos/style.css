@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 50px 0 0 0;
+}
+
+header{
+    background-color: #C47766;
+    color: #FFF;
+    width: 100%;
+    height: 94px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header>*{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    position: relative;
+    bottom: 40px;
+    margin: 0px 30px;
+}
+
+.nav-logo{
+    position: relative;
+    top: 40px;
+}
+
+.separate-nav{
+    width: 165px;
+}
+
+#contact-main{
+    padding: 20px 24px;
+    border: 2px solid white;
+    border-radius: 41px;
+}
+
+.presentation{
+    background-color: #FA845F;
+    font-family: Poppins, sans-serif;
+    height: 751px;
+    width: 100%;
+}
+
+.presentation-text > h2{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    width: 619px;
+    height: 0;
+    color: #FFF;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+.presentation-text > p{
+    color: #FFF;
+    font-weight: 400;
+    font-size: 29; 
+    opacity: 0.7;
+    position: relative;
+    top: 450px;
+    left: 100px;
+}
+
+.presentation a{
+    color: #000;
+    border: 2px solid #FCD980;
+    border-radius: 41px;
+    padding: 15px;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    background-color: #FCD980;
+    font-weight: 500;
+}
+
+.presentation img{
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+
+.sobre_nosotros_preview{
+    background-color: #FFF9E9;
+    width: 100%;
+    height: 578px;
+}
+
+.sobre_nosotros_preview p{
+    font-family: Balsamiq Sans, cursive;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+    width: 1034.1px;
+    text-align: center;
+    color: #1C1E53;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.sobre_nosotros_preview a{
+    color: #FA845F;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.text_nav_sobre_nosotros_preview{
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+
+.arrow_nav_sobre_nosotros_preview{
+    position: relative;
+    top: 205px;
+    left: 600px;
+}
+
+.structure_recipes_preview{
+    width: 100%;
+    height: 949px;
+}
+
+.text_bold_recipes_preview{
+    font-family: Balsamiq Sans, cursive;
+    font-weight: bold;
+    font-size: 48px;
+    color: #282938;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.nav_text_recipes{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #282938;
+    position: relative;
+    top: 50px;
+    left: 1000px;
+}
+
+.nav_img_recipes{
+    position: relative;
+    top: 60px;
+    left: 1050px;
+}
+
+#recomendado_img{
+    position: relative;
+    top: 100px;
+    left: 210px;
+}
+
+#platillo1_img{
+    position: relative;
+    bottom: 267px;
+    left: 280px;
+}
+
+#platillo2_img{
+    position: relative;
+    bottom: 68px;
+    right: 205px;
+}
+
+#platillo3_img{
+    position: relative;
+    bottom: 434px;
+    left: 752px;
+}
+
+.menu_text{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    position: relative;
+    top: 100px;
+    left: 1050px;
+}
+
+#background_1_recipes{
+    position: relative;
+    bottom: 434px;
+    right: 270px;
+}
+
+#background_2_recipes{
+    position: relative;
+    bottom: 434px;
+    left: 317px;
+}
+
+.border_recipes{
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+/* Recomendado */
+
+#recomendado_text{
+    font-size: 25px;
+    position: relative;
+    bottom: 960px;
+    left: 219px;
+}
+
+#recomendado_text{
+    font-size: 25px;
+    position: relative;
+    bottom: 960px;
+    left: 219px;
+}
+
+#ceviche_text{
+    font-size: 40px;
+    position: relative;
+    bottom: 850px;
+    left: 229px;
+}
+
+#ceviche_arrow{
+    font-size: 40px;
+    position: relative;
+    bottom: 500px;
+    right: 590px;
+}
+
+/* Menú del mes */
+
+#ajidegallina_text{
+    font-size: 40px;
+    position: relative;
+    bottom: 1035px;
+    left: 1019px;
+}
+
+#ajidegallina_arrow{
+    font-size: 40px;
+    position: relative;
+    bottom: 825px;
+    left: 150px;
+}
+
+#lomosaltado_text{
+    font-size: 40px;
+    position: relative;
+    bottom: 950px;
+    left: 1019px;
+}
+
+#lomosaltado_arrow{
+    font-size: 40px;
+    position: relative;
+    bottom: 635px;
+    left: 80px;
+}
+
+#mazamorramorada_text{
+    font-size: 35px;
+    position: relative;
+    bottom: 850px;
+    left: 1016px;
+}
+
+#mazamorramorada_arrow{
+    font-size: 40px;
+    position: relative;
+    bottom: 455px;
+    left: 10px;
+}
+
+#recomendado_text{
+    font-size: 25px;
+    position: relative;
+    bottom: 960px;
+    left: 219px;
+}
+
+/* End Menú del mes */
+
+.valor_recetas{
+    width: 100%;
+    height: 647px;
+    background-color: #FFF9E9;
+}
+
+.valor_recetas_bold{
+    font-family: Balsamiq Sans, cursive;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    width: 567px;
+    color: #282938;
+    position: relative;
+    left: 440px;
+    top: 50px;
+}
+
+.carta{
+    width: 365.4px;
+    height: 293.33px;
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 40px;
+    font-family: Poppins, sans-serif;
+}
+
+#carta_people{
+    position: relative;
+    top: 80px;
+    left: 140px;
+}
+
+#carta_check{
+    position: relative;
+    bottom: 219px;
+    left: 540px;
+}
+
+#carta_time{
+    position: relative;
+    bottom: 517px;
+    left: 940px;
+}
+
+.icon{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.carta_bold{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.carta_text{
+    opacity: 0.7;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    width: 292.19px;
+    line-height: 28px;
+}
+
+.presentation-footer{
+    background-color: #FA845F;
+    height: 397px;
+}
+
+footer{
+    width: 100%
+}
+
+footer nav{
+    background-color: #282938;
+    color: #fff;
+    height: 92px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer a{
+    color: #fff;
+    position: relative;
+    top: 16px;
+    left: 800px;
+    margin: 0px 20px;
+}
+
+footer nav > p{
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+
+.footer-logo{
+    width: 523.24px;
+    position: relative;
+    left: 150px;
+    top: 60px;
+}
+
+.footer-text{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    width: 468px;
+    position: relative;
+    left: 250px;
+    top: 90px;
+}
+
+.footer-image{
+    position: relative;
+    bottom: 150px;
+    left: 800px;
+    display: flex;
+}

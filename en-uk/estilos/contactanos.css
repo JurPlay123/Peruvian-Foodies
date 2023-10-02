@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 100px 0 0 0;
+}
+
+header{
+    background-color: #C47766;
+    color: #FFF;
+    width: 100%;
+    height: 94px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header>*{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    position: relative;
+    bottom: 40px;
+    margin: 0px 30px;
+}
+
+.nav-logo{
+    position: relative;
+    top: 40px;
+}
+
+.separate-nav{
+    width: 165px;
+}
+
+#contact-main{
+    padding: 20px 24px;
+    border: 2px solid white;
+    border-radius: 41px;
+}
+
+main h1{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #282938;
+    position: relative;
+    left: 550px;
+    top: 50px;
+}
+
+.principal_text{
+    opacity: 0.7;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    position: relative;
+    right: 20px;
+    top: 60px;
+}
+
+.form{
+    background-color: #fff6e1;
+    border-radius: 40px;
+    font-family: Poppins, sans-serif;
+    width: 1061px;
+    height: 640px;
+    position: relative;
+    top: 125px;
+    left: 200px;
+}
+
+.form > a{
+    color: #282938;
+    background-color: #FBD36E;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 41px;
+    padding: 20px 80px;
+}
+
+.title_input{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.button{
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+}
+
+#nombre_input{
+    position: relative;
+    top: 65px;
+    left: 100px;
+}
+
+#apellido_input{
+    position: relative;
+    top: 75px;
+    left: 100px;
+}
+
+
+#email_input{
+    position: relative;
+    top: 85px;
+    left: 100px;
+}
+
+#tema_input{
+    position: relative;
+    top: 95px;
+    left: 100px;
+}
+
+#mensaje_input{
+    position: relative;
+    top: 105px;
+    left: 100px;
+}
+
+form img{
+    position: relative;
+    bottom: 305px;
+    left: 600px;
+}
+
+.presentation-footer{
+    background-color: #FA845F;
+    height: 397px;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
+
+footer nav{
+    background-color: #282938;
+    color: #fff;
+    height: 92px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer a{
+    color: #fff;
+    position: relative;
+    top: 16px;
+    left: 800px;
+    margin: 0px 20px;
+}
+
+footer nav > p{
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+
+.footer-logo{
+    width: 523.24px;
+    position: relative;
+    left: 150px;
+    top: 60px;
+}
+
+.footer-text{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    width: 468px;
+    position: relative;
+    left: 250px;
+    top: 90px;
+}
+
+.footer-image{
+    position: relative;
+    bottom: 150px;
+    left: 800px;
+    display: flex;
+}
