@@ -33,7 +33,7 @@ header a{
     font-family: Poppins, sans-serif;
     position: relative;
     bottom: 40px;
-    margin: 0px 30px;
+    margin: 0px 20px;
 }
 
 .nav-logo{
@@ -222,13 +222,6 @@ header a{
 }
 
 /* Recomendado */
-
-#recomendado_text{
-    font-size: 25px;
-    position: relative;
-    bottom: 960px;
-    left: 219px;
-}
 
 #recomendado_text{
     font-size: 25px;
