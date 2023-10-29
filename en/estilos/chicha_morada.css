@@ -238,3 +238,37 @@ footer nav > p{
     left: 800px;
     display: flex;
 }
+
+/* Animaciones */
+
+.nav-logo:hover {
+    transition: all 1s;
+    transform: scale(1.03);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#contact-main:hover {
+    background: white;
+    color: black;
+}
+
+.footer-image {
+    animation: footer 3s ease-in-out 300ms infinite alternate backwards paused;    
+}
+
+.footer-image:hover {
+    animation-play-state: running;
+}
+
+@keyframes footer {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
