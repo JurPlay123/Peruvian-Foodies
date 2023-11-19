@@ -1,134 +1,151 @@
 <!DOCTYPE html>
 <html lang="es-419">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Todo sobre la cocina peruana para que seas un gran cocinero.">
-        <meta name="author" content="Jurghan Ascarza">
-        <meta name="copyright" content="Peruvian Foodies">
-        <meta name="robots" content="none">
-        <title>Inicio - Peruvian Foodies</title>
-        <link rel="stylesheet" href="estilos/style.css">
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7NGSD9BFT3"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Todo sobre la cocina peruana para que seas un gran cocinero.">
+    <meta name="author" content="Jurghan Ascarza">
+    <meta name="copyright" content="Peruvian Foodies">
+    <meta name="robots" content="none">
+    <title>Inicio - Peruvian Foodies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7NGSD9BFT3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-7NGSD9BFT3');
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href=""><img class="logo" src="img/logo.png" alt="Logo"></a>
+      </div>
+
+      <nav class="header__nav">
+        <a class="header__nav-item" href="en/">English</a>
+        <a class="header__nav-item" href="index.html">Inicio</a>
+        <a class="header__nav-item" href="sobre_nosotros.html">Sobre nosotros</a>
+        <a class="header__nav-item" href="recetas.html">Recetas</a>
+        <a class="header__nav-item" href="contactanos.html">Contáctanos</a>
+      </nav>
+    </header> 
+    
+    <main class="main">
+      <section class="presentation">
+        <div class="presentation__container">
+          <div class="presentation-content">
+            <h2 class="presentation-title">Las mejores recetas de las cocinas peruanas.</h2>
+            <p class="presentation-text">Para que seas un gran cocinero.</p>
+            <a class="presentation-button" href="reccetas.html">Ve nuestras recetas</a>
+          </div>  
+          <img class="presentation-img" src="img/presentation.png" alt="Presentation Foodies">
+        </div>
+      </section>
+
+      <section class="about-us">
+        <p class="about-us__text">Peruvian Foodies te enseñará a preparar unas deliciosas recetas peruanas.</p>
+        <a class="about-us__arrow" href="sobre_nosotros.html">
+          <p class="about-us-arrow-text">Sobre nosotros</p>
+          <ion-icon class="about-us-arrow" name="arrow-forward-outline"></ion-icon>
+        </a>
+      </section>
+
+      <section class="recipes">
+        <a class="recipes__arrow" href="recetas.html">
+          <p class="recipes-arrow-text">Recetas</p>
+          <ion-icon class="recipes-arrow" name="arrow-forward-outline"></ion-icon>
+        </a>
         
-          gtag('config', 'G-7NGSD9BFT3');
-        </script>
-    </head>
-    <body>
-        <header>
-            <!--Logo-->
-            <a href="index.html"><img class="nav-logo" src="images/main_images/logo.png" alt="Logo"></a>
-            <!--Logo-->
-            <div class="separate-nav"></div>
-            <nav>
-                <a href="en/index.html">English</a>
-                <a href="index.html">Inicio</a>
-                <a href="sobre_nosotros.html">Sobre nosotros</a>
-                <a href="recetas.html">Recetas</a>
-                <a id="contact-main" href="contactanos.html">Contáctanos</a>
-            </nav>
-        </header>
+        <div class="recipes__articles">
+          <article class="recipes__article">
+            <div class="recipes__article-container">
+              <p class="recipes__article-title">Recomendado</p>
+              <img class="recipes__article-img" src="img/ceviche.svg" alt="Ceviche">
+            </div>
 
-        <main>
-            <section class="presentation">
-                <div class="presentation-text">
-                    <h2>Las mejores recetas de las cocinas peruanas.</h2>
-                    <p>Para que puedas ser un gran cocinero.</p>
-                </div>
-                <a href="recetas.html">Ve nuestras recetas</a>
-                <img src="images/main_images/presentation.png" alt="Presentación">
-            </section>
-
-            <section class="sobre_nosotros_preview">
-                <p>Peruvian Foodies te enseña a preparar unas deliciosas recetas peruanas.</p>
-                <a class="text_nav_sobre_nosotros_preview" href="sobre_nosotros.html">Sobre nosotros</a>
-                <a class="arrow_nav_sobre_nosotros_preview" href="sobre_nosotros.html"><img src="images/main_images/sobre_nosotros_arrow.png" alt="Arrow"></a>
-            </section>
-
-            <section class="recetas_preview">
-                <div class="structure_recipes_preview">
-                    <p class="text_bold_recipes_preview">Nuestras recetas</p>
-                    <a class="nav_text_recipes" href="recetas.html">Recetas</a>
-                    <a class="nav_img_recipes" href="recetas.html"><img src="images/main_images/recipes_arrow.png" alt="arrow"></a>
-                    <p class="menu_text">Menú del mes</p>
-
-                    <!--Imgs-->
-                    <img id="recomendado_img" src="images/main_images/recomendado.svg" alt="Recomendado">
-                    <img id="platillo1_img" src="images/main_images/platillo1.svg" alt="platillo1">
-                    <img id="platillo2_img" src="images/main_images/platillo2.svg" alt="platillo2">
-                    <img id="platillo3_img" src="images/main_images/platillo3.svg" alt="platillo3">
-                    <img id="background_1_recipes" src="images/main_images/background_recipes_1.png" alt="Background">
-                    <img id="background_2_recipes" src="images/main_images/background_recipes_2.png" alt="Background">
-                    <a id="ceviche_arrow" href="ceviche.html"><img src="images/main_images/recipes_arrow.png" alt="arrow"></a>
-                    <a id="ajidegallina_arrow" href="aji_de_gallina.html"><img src="images/main_images/recipes_arrow.png" alt="arrow"></a>
-                    <a id="lomosaltado_arrow" href="lomo_saltado.html"><img src="images/main_images/recipes_arrow.png" alt="arrow"></a>
-                    <a id="mazamorramorada_arrow" href="mazamorra_morada.html"><img src="images/main_images/recipes_arrow.png" alt="arrow"></a>
-                    <!--Imgs-->
-
-                    <p id="recomendado_text" class="border_recipes">Recomendado</p>
-                    <p id="ceviche_text" class="border_recipes">
-                        Ceviche
-                    </p>
-                    <p id="ajidegallina_text" class="border_recipes">
-                        Ají de <br>
-                        Gallina
-                    </p>
-                    <p id="lomosaltado_text" class="border_recipes">
-                        Lomo <br>
-                        Saltado
-                    </p>
-                    <p id="mazamorramorada_text" class="border_recipes">
-                        Mazamorra <br>
-                        Morada
-                    </p>
-                </div>
-            </section>
-
-            <section class="valor_recetas">
-                <p class="valor_recetas_bold">
-                    El valor de <br>
-                    nuestras recetas
-                </p>
-
-                <div id="carta_people" class="carta">
-                    <img class="icon" src="images/main_images/icon_people.png" alt="People">
-                    <p class="carta_bold">Buenas recetas</p>
-                    <p class="carta_text">¡Nuestras recetas son muy agradables, bonitas y muy ricas! Ud. puede preparar estas delicias de la gastronomía peruana.</p>
+            <div class="recipes-icons">
+              <a class="article__arrow" href="#">
+                <p class="recipes__article-text">Ceviche</p>
+                <ion-icon class="recipes-arrow" name="arrow-forward-outline"></ion-icon>
+              </a>
+              <div class="recipes__important-icons">
+                <div class="recipe-time">
+                  <ion-icon name="time"></ion-icon>
+                  <p>25 min</p>
                 </div>
 
-                <div id="carta_check" class="carta">
-                    <img class="icon" src="images/main_images/icon_check.png" alt="Check">
-                    <p class="carta_bold">Recetas nutritivas</p>
-                    <p class="carta_text">Estas recetas tratan de ser las más nutritivas para que tu salud siga funcionando adecuadamente.</p>
+                <div class="recipe-servings">
+                  <ion-icon name="person"></ion-icon>
+                  <p>3 - 4</p>
                 </div>
+              </div>  
+            </div>
+          </article>
+        </div>
+      </section>
 
-                <div id="carta_time" class="carta">
-                    <img class="icon" src="images/main_images/icon_time.png" alt="Time">
-                    <p class="carta_bold">Buen tiempo</p>
-                    <p class="carta_text">Estas recetas, pueden prepararse en unos cuantos minutos y/o horas. Si eres una persona ocupada, estas recetas serán ideales.</p>
-                </div>
-            </section>
-        </main>
+      <section class="value-recipes">
+        <p class="value-recipes__title">
+          El valor de <br>
+          nuestras recetas
+        </p>
 
-        <footer>
-            <section class="presentation-footer">
-                <img class="footer-logo" src="images/main_images/logo.png" alt="Logo">
-                <p class="footer-text">Siempre estamos felices de verte preparando increíbles recetas.</p>
-                <img class="footer-image" src="images/main_images/footer_image.png" alt="Footer Image">
-            </section>
+        <div class="value-recipes__articles">
+          <article class="value-recipes__article">
+            <div class="value-recipes__article-title">
+              <ion-icon class="value-recipes__article-icon" name="people"></ion-icon>
+              <p>Buenas recetas</p>
+            </div>
+            <p class="value-recipes__article-text">¡Nuestras recetas son muy agradables, bonitas y deliciosas! Usted puede preparar estas delicias de la gastronomía peruana.</p>
+          </article>
 
-            <nav class="footer_nav">
-                <p>Hecho por Jurghan Ascarza - Peruvian Foodies</p>
-                <a href="index.html">Inicio</a>
-                <a href="sobre_nosotros.html">Sobre nosotros</a>
-                <a href="recetas.html">Recetas</a>
-                <a href="contactanos.html">Contáctanos</a>
-            </nav>        
-        </footer>
-    </body>
+          <article class="value-recipes__article">
+            <div class="value-recipes__article-title">
+              <ion-icon class="value-recipes__article-icon" name="checkmark-circle"></ion-icon>
+              <p>Recetas nutritivas</p>
+            </div>
+            <p class="value-recipes__article-text">Estas recetas tratan de ser las más nutritivas para que tu salud sea la más saludable.</p>
+          </article>
+
+          <article class="value-recipes__article">
+            <div class="value-recipes__article-title">
+              <ion-icon class="value-recipes__article-icon" name="stopwatch"></ion-icon>
+              <p>Buen tiempo</p>
+            </div>
+            <p class="value-recipes__article-text">Estas recetas pueden prepararse en minutos y/o horas adecuadas. Si eres una persona ocupada, estas recetas serán ideales.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer__content">
+          <img class="logo" src="img/logo.png" alt="Peruvian Foodies Logo">
+          <p class="footer__content-text">Siempre estamos felices de verte preparando increíbles recetas.</p>
+        </div>
+        <img class="footer-image" src="img/footer-image.png" alt="Foodies">
+      </div>
+
+      <div class="footer-nav">
+        <p class="footer-nav__text">
+          Hecho por Jurghan Ascarza - Peruvian Foodies
+        </p>
+
+        <nav class="footer-nav__nav">
+          <a class="footer__nav-item" href="index.html">Inicio</a>
+          <a class="footer__nav-item" href="sobre_nosotros.html">Sobre nosotros</a>
+          <a class="footer__nav-item" href="recetas.html">Recetas</a>
+          <a class="footer__nav-item" href="contactanos.html">Contáctanos</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+  <!--Scripts-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>       
 </html>
