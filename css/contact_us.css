@@ -1,0 +1,355 @@
+body {
+    background-image: var(--recipesBg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+/* Form */
+
+main {
+    margin: 20vh 0;
+}
+
+.contact_us-contain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_us-contain-title {
+    color: var(--eighthColour);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.contact_us-contain-title h2{
+    font-family: var(--firstFont);
+    font-size: 3.5vw;
+}
+
+.contact_us-contain-title p{
+    font-family: var(--secondFont);
+    font-size: 1.2vw;
+}
+
+.contact_us-form {
+    background-color: var(--seventhColour);
+    border: 5px solid var(--secondColour);
+    padding: 5vh 5%;
+    width: 50vw;
+    height: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_us-form * {
+    margin: 0.5vh 0 0.5vh;
+    font-family: var(--secondFont);
+}
+
+.contact_us-form label {
+    font-weight: 600;
+    color: var(--eighthColour);
+}
+
+.contact_us-form input {
+    background: var(--transparent);
+    border-color: var(--transparent);
+    border-bottom: 2px solid var(--secondColour);
+    color: var(--eighthColour);
+}
+
+.form-item-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.form-options-text {
+    font-weight: 600;
+    color: var(--eighthColour);
+}
+
+.form-options-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.options-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0.5vw;
+}
+
+.options-group label {
+    font-weight: 400;
+}
+
+.options-group input {
+    margin: 0 70% 0 0;
+}
+
+.form-item-group textarea {
+    height: 30vh;
+    background: var(--transparent);
+    border: 2px solid var(--secondColour);
+    border-radius: 5px;
+    color: var(--eighthColour);
+}
+
+.form-item-button button {
+    width: 50%;
+    background: var(--transparent);
+    border: 2px solid var(--secondColour);
+    border-radius: 50px;
+    color: var(--eighthColour);
+}
+
+.form-item-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Animations */
+
+.form-item-button button:hover {
+    background: var(--firstColour);
+    color: var(--tenthColour);
+}
+
+/* Width Adjust*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer__content-text {
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .footer__nav-item, .footer-nav__text {
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header__nav-item {
+        font-size: 1vw;
+        margin: 0 2% 0;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .contact_us-form {
+        width: 80vw;
+    }
+
+    .footer__content-text {
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .footer-nav {
+        height: 10vh;
+    }
+    
+    .footer__nav-item, .footer-nav__text {
+        font-size: 1vw;
+    }
+
+    .light-dark {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__nav-item {
+        font-size: 1.5vw;
+        margin: 0 2.5% 0;
+    }
+
+    .logo {
+        width: 35vw;
+    }
+
+    .header__nav-item:nth-child(2), .header__nav-item:nth-child(3), .header__nav-item:nth-child(4) {
+        display: none;
+    }
+
+    .header__nav-item:nth-child(5) {
+        padding: 1.1vh 2.1%;
+        border: 2px solid var(--firstColour);
+        border-radius: 40px;
+    }
+
+    .contact_us-form {
+        width: 80vw;
+    }
+
+    
+    .form-group input {
+        width: 80%;
+    }
+
+    .footer-container {
+        display: none;
+    }
+
+    .footer {
+        height: 20vh;
+    }
+
+    .footer-nav {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .footer__nav-item, .footer-nav__text {
+        margin: 0 2vw 0;
+        font-size: 2vw;
+    }
+
+    .light-dark {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .header__nav-item {
+        font-size: 3vw;
+        margin: 0 2.5% 0;
+    }
+
+    .logo {
+        width: 50vw;
+    }
+
+    .header__nav-item:nth-child(2), .header__nav-item:nth-child(3), .header__nav-item:nth-child(4), .header__nav-item:nth-child(5) {
+        display: none;
+    }
+
+    .contact_us-form {
+        width: 80vw;
+    }
+
+    .contact_us-form label, .form-options-text {
+        font-size: 5vw;
+    }
+
+    .contact_us-contain-title h2 {
+        font-size: 10vw;
+    }
+
+    .contact_us-contain-title p {
+        font-size: 4vw;
+    }
+
+    .form-group input {
+        width: 70%;
+    }
+
+    .form-options-group input {
+        margin-right: 30vw;
+    }
+
+    .footer {
+        height: 10vh;
+    }
+
+    .footer-nav {
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer__nav-item, .footer-nav__text {
+        margin: 0 1vw 0;
+        font-size: 3vw;
+    }
+
+    .light-dark {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Height Adjust */
+
+@media (min-height: 470px) and (max-height: 614px) {
+    body {
+        margin: 15vh 0 0 0;
+    }
+
+    .header {
+        height: 15vh;
+    }
+
+    .contact_us-contain {
+        margin-top: 25vh;
+    }
+}
+
+@media (min-height: 254px) and (max-height: 469px) {
+    body {
+        margin: 25vh 0 0 0;
+    }
+
+    .header {
+        height: 25vh;
+    }
+
+    .contact_us-contain {
+        margin-top: 35vh;
+    }
+
+    .footer-container {
+        display: none;
+    }
+
+    .footer-nav {
+        height: 100%;
+    }
+}
+
+@media (max-height: 253px) {
+    body {
+        margin: 30vh 0 0 0;
+    }
+
+    .header {
+        height: 30vh;
+    }
+
+    .contact_us-contain {
+        margin-top: 40vh;
+    }
+
+    .footer-container {
+        display: none;
+    }
+
+    .footer-nav {
+        height: 100%;
+    }
+}
