@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Peruvian-Foodies/img/recipes-images/recipes_bg.png);
+    background-image: var(--recipesBg);
     background-attachment: fixed;
     background-repeat: repeat;
 }
