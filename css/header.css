@@ -30,8 +30,8 @@ body {
     --firstFont: Balsamiq Sans, cursive;
     --secondFont: Poppins, sans-serif;
     --thirdFont: sans-serif;
-    --changeTheme: url(/Peruvian-Foodies/img/main-images/moon.png);
-    --recipesBg: url(/Peruvian-Foodies/img/recipes-images/recipes_bg.png);
+    --changeTheme: url(/img/main-images/moon.png);
+    --recipesBg: url(/img/recipes-images/recipes_bg.png);
 }
 
 /* Header - Nav*/
@@ -57,7 +57,7 @@ body {
   align-items: center;
   gap: 2vw;
   position: relative;
-  right: 3%;
+  right: 6%;
 }
 
 .header ul {
@@ -70,7 +70,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 .logo {
