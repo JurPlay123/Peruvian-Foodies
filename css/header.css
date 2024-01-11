@@ -30,8 +30,8 @@ body {
     --firstFont: Balsamiq Sans, cursive;
     --secondFont: Poppins, sans-serif;
     --thirdFont: sans-serif;
-    --changeTheme: url(/img/main-images/moon.png);
-    --recipesBg: url(/img/recipes-images/recipes_bg.png);
+    --changeTheme: url(/Peruvian-Foodies/img/main-images/moon.png);
+    --recipesBg: url(/Peruvian-Foodies/img/recipes-images/recipes_bg.png);
 }
 
 /* Header - Nav*/
