@@ -1,0 +1,220 @@
+body {
+    background-image: var(--recipesBg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+/* Form */
+
+main {
+    margin: 20vh 0;
+}
+
+.contact_us-contain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_us-contain-title {
+    color: var(--eighthColour);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.contact_us-contain-title h2{
+    font-family: var(--firstFont);
+    font-size: 3.5vw;
+}
+
+.contact_us-contain-title p{
+    font-family: var(--secondFont);
+    font-size: 1.2vw;
+}
+
+.contact_us-form {
+    background-color: var(--seventhColour);
+    border: 5px solid var(--secondColour);
+    padding: 5vh 5%;
+    width: 50vw;
+    height: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_us-form * {
+    margin: 0.5vh 0 0.5vh;
+    font-family: var(--secondFont);
+}
+
+.contact_us-form label {
+    font-weight: 600;
+    color: var(--eighthColour);
+}
+
+.contact_us-form input {
+    background: var(--transparent);
+    border-color: var(--transparent);
+    border-bottom: 2px solid var(--secondColour);
+    color: var(--eighthColour);
+}
+
+.form-item-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.form-options-text {
+    font-weight: 600;
+    color: var(--eighthColour);
+}
+
+.form-options-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.options-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0.5vw;
+}
+
+.options-group label {
+    font-weight: 400;
+}
+
+.options-group input {
+    margin: 0 70% 0 0;
+}
+
+.form-item-group textarea {
+    height: 30vh;
+    background: var(--transparent);
+    border: 2px solid var(--secondColour);
+    border-radius: 5px;
+    color: var(--eighthColour);
+}
+
+.form-item-button button {
+    width: 50%;
+    background: var(--transparent);
+    border: 2px solid var(--secondColour);
+    border-radius: 50px;
+    color: var(--eighthColour);
+}
+
+.form-item-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Animations */
+
+.form-item-button button:hover {
+    background: var(--firstColour);
+    color: var(--tenthColour);
+}
+
+/* Width Adjust*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .contact_us-contain-title h2 {
+        font-size: 5vw;
+    }
+
+    .contact_us-contain-title p {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .contact_us-form {
+        width: 80vw;
+    }
+
+    .contact_us-contain-title h2 {
+        font-size: 5.5vw;
+    }
+
+    .contact_us-contain-title p {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact_us-form {
+        width: 80vw;
+    }
+
+    .contact_us-contain-title h2 {
+        font-size: 7vw;
+    }
+
+    .contact_us-contain-title p {
+        font-size: 3vw;
+    }
+
+    .form-group input {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact_us-form {
+        width: 80vw;
+    }
+
+    .contact_us-form label, .form-options-text {
+        font-size: 5vw;
+    }
+
+    .contact_us-contain-title h2 {
+        font-size: 9vw;
+    }
+
+    .contact_us-contain-title p {
+        font-size: 4vw;
+    }
+
+    .form-group input {
+        width: 70%;
+    }
+
+    .form-options-group input {
+        margin-right: 30vw;
+    }
+}
+
+/* Height Adjust */
+
+@media (min-height: 470px) and (max-height: 614px) {
+    .contact_us-contain {
+        margin-top: 25vh;
+    }
+}
+
+@media (min-height: 254px) and (max-height: 469px) {
+    .contact_us-contain {
+        margin-top: 35vh;
+    }
+}
+
+@media (max-height: 253px) {
+    .contact_us-contain {
+        margin-top: 40vh;
+    }
+}
